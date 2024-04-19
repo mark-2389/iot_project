@@ -1,8 +1,8 @@
 # IOT Project 2022-2023
 
 The project required to emulate in TinyOS a lightweight publish/subscribe protocol of communication, with two actors:
-   • PAN Coordinator, a self elected node that acts as the broker of the protocol of communication;
-   • Motes, 8 different mote that can connect to the broker, subscribe to some topics (in our case they were only 3) and publish (one topic per mote, with random payload).
+   - PAN Coordinator, a self elected node that acts as the broker of the protocol of communication;
+   - Motes, 8 different mote that can connect to the broker, subscribe to some topics (in our case they were only 3) and publish (one topic per mote, with random payload).
 
 Specifically the assignement requires to design and implement in TinyOS a lightweight publish/subscribe application protocol similar to MQTT and test it with simulations on a star-shaped network topology composed of 8 client nodes connected to
 a PAN coordinator. The PAN coordinator acts as an MQTT broker.
